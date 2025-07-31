@@ -1,0 +1,51 @@
+{
+  "cutscene_info": {
+    "title": "Shattered Strings",
+    "game": "One Piece: Shattered Strings",
+    "scene_id": "opening_cutscene_01",
+    "duration_seconds": 180,
+    "aspect_ratio": "16:9",
+    "resolution": "1920x1080"
+  },
+  "technical_settings": {
+    "fps": 30,
+    "audio_format": "44.1kHz",
+    "subtitle_support": true,
+    "skip_enabled": true,
+    "auto_save_checkpoint": true
+  },
+  "characters": [
+    {
+      "name": "Monkey D. Luffy",
+      "model": "luffy_post_timeskip",
+      "voice_actor": "mayumi_tanaka"
+    },
+    {
+      "name": "Roronoa Zoro", 
+      "model": "zoro_post_timeskip",
+      "voice_actor": "kazuya_nakai"
+    },
+    {
+      "name": "Nami",
+      "model": "nami_post_timeskip", 
+      "voice_actor": "akemi_okamura"
+    },
+    {
+      "name": "Mysterious Puppeteer",
+      "model": "antagonist_original",
+      "voice_actor": "custom_villain"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Thousand Sunny Deck",
+      "environment": "ocean_day",
+      "weather": "calm_seas"
+    },
+    {
+      "name": "Mysterious Island Shore",
+      "environment": "tropical_beach",
+      "weather": "ominous_fog"
+    }
+  ]
+}
