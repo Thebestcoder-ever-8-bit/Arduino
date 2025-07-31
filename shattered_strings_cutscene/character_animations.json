@@ -1,0 +1,253 @@
+{
+  "character_animations": {
+    "luffy": {
+      "model": "luffy_post_timeskip",
+      "base_animations": {
+        "idle": "relaxed_swaying_with_occasional_stretch",
+        "excited": "bouncing_with_wide_gestures", 
+        "serious": "still_focused_stance",
+        "determined": "clenched_fists_forward_lean"
+      },
+      "scene_specific_animations": [
+        {
+          "timestamp": "0:15 - 0:22",
+          "animation": "figurehead_stretch",
+          "description": "Sitting on lion figurehead, stretching arms wide toward horizon",
+          "facial_expression": "wide_grin_eyes_sparkling",
+          "special_effects": "rubber_arm_extension"
+        },
+        {
+          "timestamp": "0:40 - 0:44", 
+          "animation": "curious_fog_watching",
+          "description": "Leaning forward with hand shading eyes, looking at fog",
+          "facial_expression": "intrigued_excitement",
+          "transition": "smooth_from_stretch_pose"
+        },
+        {
+          "timestamp": "1:15 - 1:22",
+          "animation": "jump_and_land",
+          "description": "Jumping from ship to silver sand, landing in crouch",
+          "facial_expression": "focused_curiosity",
+          "special_effects": "sand_displacement_on_landing"
+        },
+        {
+          "timestamp": "1:25 - 1:30",
+          "animation": "examining_strings",
+          "description": "Crouching down, poking at emerging strings with finger",
+          "facial_expression": "puzzled_but_not_afraid",
+          "interaction": "strings_react_to_touch"
+        },
+        {
+          "timestamp": "1:32 - 1:38",
+          "animation": "confident_challenge",
+          "description": "Standing up, cracking knuckles, battle-ready stance",
+          "facial_expression": "determined_grin",
+          "body_language": "shoulders_back_confident"
+        },
+        {
+          "timestamp": "2:00 - 2:10",
+          "animation": "attack_preparation",
+          "description": "Winding up for Gomu Gomu attack, arm pulling back",
+          "facial_expression": "serious_focus",
+          "special_effects": "rubber_arm_stretching_back"
+        },
+        {
+          "timestamp": "2:10 - 2:30",
+          "animation": "string_entanglement",
+          "description": "Struggling against strings wrapping around limbs",
+          "facial_expression": "shock_then_determination",
+          "constraint_animation": "fighting_against_string_physics"
+        },
+        {
+          "timestamp": "2:32 - 2:45",
+          "animation": "psychological_struggle",
+          "description": "Head down, strings glowing, internal battle visible",
+          "facial_expression": "pain_and_memories",
+          "special_effects": "flashback_overlay_on_face"
+        },
+        {
+          "timestamp": "2:48 - 2:58",
+          "animation": "breaking_free_buildup",
+          "description": "Slowly raising head, eyes beginning to glow with Haki",
+          "facial_expression": "fierce_determination_building",
+          "special_effects": "haki_energy_crackling_around_body"
+        }
+      ]
+    },
+    "nami": {
+      "model": "nami_post_timeskip",
+      "base_animations": {
+        "idle": "professional_navigator_stance",
+        "concerned": "furrowed_brow_checking_instruments",
+        "panicked": "rapid_movements_defensive_posture",
+        "controlled": "stiff_unnatural_movements"
+      },
+      "scene_specific_animations": [
+        {
+          "timestamp": "0:22 - 0:30",
+          "animation": "log_pose_checking",
+          "description": "Emerging from cabin, holding Log Pose up, examining it closely",
+          "facial_expression": "worried_concentration",
+          "prop_interaction": "log_pose_spinning_wildly"
+        },
+        {
+          "timestamp": "0:42 - 0:45",
+          "animation": "alarmed_pointing",
+          "description": "Pointing at approaching fog with concerned gesture",
+          "facial_expression": "growing_alarm",
+          "body_language": "protective_stance_near_cabin"
+        },
+        {
+          "timestamp": "1:08 - 1:15",
+          "animation": "frantic_log_pose_checking",
+          "description": "Rapidly checking Log Pose, tapping it, shaking it",
+          "facial_expression": "panic_and_disbelief",
+          "prop_interaction": "log_pose_completely_dead"
+        },
+        {
+          "timestamp": "2:12 - 2:20",
+          "animation": "string_capture",
+          "description": "Strings wrapping around wrist, arm being pulled upward",
+          "facial_expression": "shock_turning_to_fear",
+          "constraint_animation": "struggling_against_string_control"
+        },
+        {
+          "timestamp": "2:20 - 2:45",
+          "animation": "controlled_movement",
+          "description": "Arm moving against her will, trying to resist with other arm",
+          "facial_expression": "helpless_frustration",
+          "special_effects": "string_glow_on_controlled_limb"
+        }
+      ]
+    },
+    "zoro": {
+      "model": "zoro_post_timeskip",
+      "base_animations": {
+        "idle": "relaxed_warrior_stance",
+        "training": "disciplined_weight_lifting",
+        "alert": "hand_on_sword_ready_stance",
+        "battle": "fluid_sword_combat_movements"
+      },
+      "scene_specific_animations": [
+        {
+          "timestamp": "0:30 - 0:38",
+          "animation": "training_to_alert",
+          "description": "Lifting weights, then stopping mid-rep, setting them down carefully",
+          "facial_expression": "focused_training_to_serious_concern",
+          "transition": "smooth_weight_placement_hand_to_sword"
+        },
+        {
+          "timestamp": "1:05 - 1:10",
+          "animation": "sword_draw_ready",
+          "description": "Quick draw of one sword, defensive stance",
+          "facial_expression": "battle_ready_concentration",
+          "weapon_interaction": "wado_ichimonji_gleaming"
+        },
+        {
+          "timestamp": "1:43 - 1:50",
+          "animation": "ittoryu_attack",
+          "description": "Single sword technique, precise cutting motion through strings",
+          "facial_expression": "intense_focus_attack_face",
+          "special_effects": "sword_slash_energy_cutting_strings"
+        },
+        {
+          "timestamp": "2:35 - 2:45",
+          "animation": "partial_string_control",
+          "description": "Sword arm being controlled, fighting to maintain grip",
+          "facial_expression": "gritted_teeth_resistance",
+          "constraint_animation": "struggling_against_sword_arm_control"
+        }
+      ]
+    },
+    "mysterious_puppeteer": {
+      "model": "antagonist_original",
+      "base_animations": {
+        "idle": "theatrical_conductor_stance",
+        "commanding": "dramatic_string_manipulation_gestures",
+        "confident": "arms_spread_puppet_master_pose",
+        "uncertain": "defensive_stepping_back"
+      },
+      "scene_specific_animations": [
+        {
+          "timestamp": "1:22 - 1:35",
+          "animation": "dramatic_entrance",
+          "description": "Emerging from behind dead tree, coat billowing with strings",
+          "facial_expression": "hidden_behind_ornate_mask",
+          "special_effects": "strings_flowing_like_living_things"
+        },
+        {
+          "timestamp": "1:40 - 2:10",
+          "animation": "string_attack_conducting",
+          "description": "Orchestral conducting motions, strings shooting from fingertips",
+          "facial_expression": "mask_eye_holes_glowing",
+          "special_effects": "multiple_string_projectiles"
+        },
+        {
+          "timestamp": "2:00 - 2:35",
+          "animation": "psychological_manipulation",
+          "description": "Slow, hypnotic gestures, strings glowing with dark energy",
+          "facial_expression": "mask_tilting_menacingly",
+          "special_effects": "dark_energy_emanating_from_strings"
+        },
+        {
+          "timestamp": "2:35 - 2:50",
+          "animation": "confident_control",
+          "description": "Arms spread wide, conducting puppet movements",
+          "facial_expression": "mask_expressing_twisted_joy",
+          "body_language": "dominant_puppet_master_stance"
+        },
+        {
+          "timestamp": "2:55 - 2:58",
+          "animation": "growing_uncertainty",
+          "description": "Stepping back, gestures becoming less confident",
+          "facial_expression": "mask_eye_glow_flickering",
+          "body_language": "defensive_surprise"
+        }
+      ]
+    }
+  },
+  "animation_technical_specs": {
+    "frame_rate": "30fps",
+    "motion_blur": "enabled_for_fast_movements",
+    "facial_animation_system": "blend_shape_based",
+    "constraint_system": "physics_based_string_interactions",
+    "special_effects_integration": "real_time_particle_systems"
+  },
+  "facial_expression_library": {
+    "luffy_expressions": [
+      "excited_wide_grin",
+      "curious_head_tilt", 
+      "serious_narrow_eyes",
+      "determined_fierce_stare",
+      "protective_anger",
+      "struggling_pain",
+      "breakthrough_power"
+    ],
+    "nami_expressions": [
+      "professional_concern",
+      "growing_worry",
+      "shocked_realization",
+      "helpless_fear",
+      "struggling_resistance"
+    ],
+    "zoro_expressions": [
+      "focused_training",
+      "alert_danger_sense",
+      "battle_concentration",
+      "gritted_teeth_effort",
+      "controlled_resistance"
+    ],
+    "puppeteer_expressions": [
+      "hidden_mask_base",
+      "glowing_eye_menace",
+      "twisted_satisfaction",
+      "flickering_uncertainty"
+    ]
+  },
+  "interaction_systems": {
+    "string_physics": "Dynamic rope simulation with collision detection",
+    "character_constraints": "IK system for string-controlled movements",
+    "environmental_interaction": "Sand displacement, tree movement in wind",
+    "prop_animation": "Log Pose spinning, sword gleaming effects"
+  }
+}

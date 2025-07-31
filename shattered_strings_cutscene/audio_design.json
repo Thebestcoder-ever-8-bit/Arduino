@@ -1,0 +1,232 @@
+{
+  "audio_design": {
+    "music_tracks": {
+      "track_1": {
+        "name": "Peaceful Voyage",
+        "duration": "0:00 - 0:38",
+        "style": "upbeat_adventure_theme",
+        "instruments": ["acoustic_guitar", "violin", "flute", "light_percussion"],
+        "tempo": "moderate_120bpm",
+        "mood": "optimistic_and_carefree",
+        "fade": "gradual_fade_out_as_fog_approaches"
+      },
+      "track_2": {
+        "name": "Approaching Darkness",
+        "duration": "0:38 - 0:55",
+        "style": "ominous_transition",
+        "instruments": ["low_strings", "discordant_piano", "wind_effects"],
+        "tempo": "slowing_100bpm",
+        "mood": "building_tension",
+        "special_notes": "music_box_melody_distorted"
+      },
+      "track_3": {
+        "name": "Island of Severed Dreams",
+        "duration": "0:55 - 2:30",
+        "style": "dark_atmospheric",
+        "instruments": ["haunting_choir", "deep_brass", "eerie_strings", "music_box"],
+        "tempo": "slow_80bpm",
+        "mood": "mysterious_and_threatening",
+        "leitmotif": "puppeteer_string_melody"
+      },
+      "track_4": {
+        "name": "Shattered Resolve",
+        "duration": "2:30 - 2:58",
+        "style": "emotional_climax",
+        "instruments": ["full_orchestra", "electric_guitar", "taiko_drums"],
+        "tempo": "building_to_140bpm",
+        "mood": "determination_overcoming_despair",
+        "special_notes": "luffy_theme_variation"
+      },
+      "track_5": {
+        "name": "To Be Continued Sting",
+        "duration": "2:58 - 3:00",
+        "style": "dramatic_punctuation",
+        "instruments": ["sharp_orchestral_hit", "glass_break_sound"],
+        "tempo": "single_impact",
+        "mood": "cliffhanger_tension"
+      }
+    },
+    "sound_effects": {
+      "environmental": [
+        {
+          "name": "ocean_waves",
+          "duration": "0:00 - 0:45",
+          "description": "Gentle lapping waves against ship hull",
+          "volume": "ambient_low"
+        },
+        {
+          "name": "seagull_cries",
+          "duration": "0:00 - 0:30",
+          "description": "Distant seagulls calling",
+          "volume": "background"
+        },
+        {
+          "name": "ship_creaking",
+          "duration": "0:00 - 0:45",
+          "description": "Wooden ship sounds, sails flapping",
+          "volume": "subtle"
+        },
+        {
+          "name": "fog_rolling_in",
+          "duration": "0:38 - 0:55",
+          "description": "Supernatural whooshing, muffled sounds",
+          "volume": "building_to_prominent"
+        },
+        {
+          "name": "eerie_wind",
+          "duration": "0:55 - 3:00",
+          "description": "Unnatural wind through dead trees",
+          "volume": "constant_low"
+        }
+      ],
+      "character_actions": [
+        {
+          "name": "luffy_stretching",
+          "timestamp": "0:15",
+          "description": "Rubber stretching sound effect",
+          "volume": "medium"
+        },
+        {
+          "name": "log_pose_spinning",
+          "timestamp": "0:25",
+          "description": "Mechanical spinning, magnetic interference",
+          "volume": "focused"
+        },
+        {
+          "name": "zoro_weights",
+          "timestamp": "0:30",
+          "description": "Heavy metal clanking, then sudden stop",
+          "volume": "medium"
+        },
+        {
+          "name": "sword_draw",
+          "timestamp": "1:05",
+          "description": "Sharp metallic ring of sword being drawn",
+          "volume": "prominent"
+        },
+        {
+          "name": "footsteps_on_sand",
+          "timestamp": "1:15",
+          "description": "Crunching on unusual silver sand",
+          "volume": "detailed"
+        }
+      ],
+      "supernatural_elements": [
+        {
+          "name": "string_emergence",
+          "timestamp": "1:18",
+          "description": "Thin, high-pitched whining as strings rise",
+          "volume": "eerie_prominent"
+        },
+        {
+          "name": "puppeteer_laugh",
+          "timestamp": "1:35",
+          "description": "Layered, echoing maniacal laughter",
+          "volume": "chilling_loud",
+          "processing": "reverb_and_distortion"
+        },
+        {
+          "name": "string_attacks",
+          "timestamp": "1:40",
+          "description": "Whooshing razor-thin sounds",
+          "volume": "action_prominent"
+        },
+        {
+          "name": "sword_cutting_strings",
+          "timestamp": "1:45",
+          "description": "Sharp slicing followed by string snaps",
+          "volume": "satisfying_clear"
+        },
+        {
+          "name": "string_binding",
+          "timestamp": "2:12",
+          "description": "Tight constricting sounds",
+          "volume": "uncomfortable_close"
+        },
+        {
+          "name": "dark_energy_hum",
+          "timestamp": "2:32",
+          "description": "Low frequency psychological pressure",
+          "volume": "oppressive_background"
+        },
+        {
+          "name": "haki_awakening",
+          "timestamp": "2:50",
+          "description": "Building energy, crackling power",
+          "volume": "dramatic_crescendo"
+        },
+        {
+          "name": "reality_cracking",
+          "timestamp": "2:58",
+          "description": "Glass shattering, reality breaking apart",
+          "volume": "shocking_climax"
+        }
+      ]
+    },
+    "voice_direction": {
+      "luffy": {
+        "voice_actor": "Mayumi Tanaka",
+        "direction": "Start cheerful and excited, become serious and determined",
+        "key_moments": [
+          "0:17 - Excited about island ahead",
+          "0:40 - Fascinated by mysterious fog", 
+          "1:25 - Curious about strings",
+          "1:32 - Confident challenge to villain",
+          "2:25 - Protective anger for friend",
+          "2:48 - Powerful declaration of freedom"
+        ],
+        "vocal_processing": "slight_reverb_for_final_shout"
+      },
+      "nami": {
+        "voice_actor": "Akemi Okamura",
+        "direction": "Concerned navigator, growing fear, then controlled helplessness",
+        "key_moments": [
+          "0:24 - Worried about Log Pose malfunction",
+          "0:42 - Alarmed by unnatural fog movement",
+          "1:08 - Panicked about impossible situation",
+          "2:14 - Struggling against string control"
+        ],
+        "vocal_processing": "slight_distortion_when_controlled"
+      },
+      "zoro": {
+        "voice_actor": "Kazuya Nakai", 
+        "direction": "Instinctive warrior, calm but alert, then strained resistance",
+        "key_moments": [
+          "0:32 - Sensing danger with warrior instinct",
+          "1:06 - Confused but ready for action",
+          "1:43 - Battle cry during sword technique",
+          "2:42 - Struggling to speak through string control"
+        ],
+        "vocal_processing": "echo_on_attack_names"
+      },
+      "mysterious_puppeteer": {
+        "voice_actor": "Custom Villain Voice",
+        "direction": "Theatrical, layered, unsettling - like multiple voices speaking",
+        "key_moments": [
+          "0:45 - Sing-song introduction in fog",
+          "1:28 - Grandiose villain introduction",
+          "1:42 - Confident attack declaration",
+          "2:00 - Psychological manipulation",
+          "2:35 - Twisted philosophy about strings",
+          "2:55 - Uncertainty as power is challenged"
+        ],
+        "vocal_processing": "heavy_reverb_layering_pitch_modulation"
+      },
+      "narrator": {
+        "voice_actor": "Deep Authoritative Voice",
+        "direction": "Classic One Piece adventure narrator style",
+        "key_moments": [
+          "0:02 - Setting the scene with gravitas"
+        ],
+        "vocal_processing": "warm_professional_broadcast_quality"
+      }
+    },
+    "audio_mixing": {
+      "dialogue_priority": "Always clear and prominent over music and effects",
+      "music_ducking": "Automatic reduction during important dialogue",
+      "dynamic_range": "Compressed for consistent playback across devices",
+      "spatial_audio": "Positional audio for string attacks and environmental sounds",
+      "frequency_balance": "Enhanced bass for dramatic moments, clear mids for dialogue"
+    }
+  }
+}

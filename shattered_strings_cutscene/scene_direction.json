@@ -1,0 +1,191 @@
+{
+  "scene_direction": {
+    "scene_1": {
+      "title": "Thousand Sunny - Peaceful Sailing",
+      "duration": "0:00 - 0:45",
+      "camera_shots": [
+        {
+          "shot_id": "establishing_shot",
+          "type": "wide_aerial",
+          "duration": "0:00 - 0:08",
+          "description": "Fade in from black. Sweeping aerial view of endless ocean",
+          "camera_movement": "slow_pan_down",
+          "focus": "ocean_to_ship_transition"
+        },
+        {
+          "shot_id": "ship_approach",
+          "type": "medium_wide",
+          "duration": "0:08 - 0:15",
+          "description": "Thousand Sunny sailing peacefully, white sails full",
+          "camera_movement": "gentle_tracking_shot",
+          "focus": "ship_details"
+        },
+        {
+          "shot_id": "luffy_figurehead",
+          "type": "medium_close",
+          "duration": "0:15 - 0:22",
+          "description": "Luffy on figurehead, arms stretched wide",
+          "camera_movement": "slight_tilt_up",
+          "focus": "luffy_excitement"
+        },
+        {
+          "shot_id": "nami_concern",
+          "type": "close_up",
+          "duration": "0:22 - 0:30",
+          "description": "Nami emerging from cabin with Log Pose",
+          "camera_movement": "steady_focus_pull",
+          "focus": "log_pose_spinning"
+        },
+        {
+          "shot_id": "zoro_training",
+          "type": "medium",
+          "duration": "0:30 - 0:38",
+          "description": "Zoro training, then stopping and looking serious",
+          "camera_movement": "slow_zoom_in",
+          "focus": "zoro_instincts"
+        },
+        {
+          "shot_id": "fog_approach",
+          "type": "wide",
+          "duration": "0:38 - 0:45",
+          "description": "Unnatural fog rolling in against the wind",
+          "camera_movement": "dramatic_zoom_out",
+          "focus": "approaching_danger"
+        }
+      ],
+      "lighting": {
+        "initial": "bright_sunny_day",
+        "transition": "dimming_as_fog_approaches",
+        "final": "eerie_fog_lighting"
+      },
+      "special_effects": [
+        "seagull_particles",
+        "ocean_wave_simulation",
+        "fog_volumetric_rendering"
+      ]
+    },
+    "scene_2": {
+      "title": "Mysterious Island Encounter",
+      "duration": "0:45 - 3:00",
+      "camera_shots": [
+        {
+          "shot_id": "fog_engulfment",
+          "type": "immersive_360",
+          "duration": "0:45 - 0:55",
+          "description": "Ship completely engulfed in fog, zero visibility",
+          "camera_movement": "disorienting_spin",
+          "focus": "confusion_and_mystery"
+        },
+        {
+          "shot_id": "island_reveal",
+          "type": "dramatic_wide",
+          "duration": "0:55 - 1:05",
+          "description": "Fog clears to reveal silver beach and dead trees",
+          "camera_movement": "slow_reveal_pan",
+          "focus": "unnatural_environment"
+        },
+        {
+          "shot_id": "crew_confusion",
+          "type": "group_medium",
+          "duration": "1:05 - 1:15",
+          "description": "Crew realizing they've been transported",
+          "camera_movement": "subtle_handheld_shake",
+          "focus": "character_reactions"
+        },
+        {
+          "shot_id": "luffy_ground_contact",
+          "type": "close_up_ground",
+          "duration": "1:15 - 1:22",
+          "description": "Luffy's feet touching silver sand, strings emerging",
+          "camera_movement": "low_angle_tilt_up",
+          "focus": "string_emergence"
+        },
+        {
+          "shot_id": "puppeteer_entrance",
+          "type": "dramatic_silhouette",
+          "duration": "1:22 - 1:35",
+          "description": "Mysterious Puppeteer emerging from behind dead tree",
+          "camera_movement": "slow_zoom_in_reveal",
+          "focus": "villain_introduction"
+        },
+        {
+          "shot_id": "battle_begins",
+          "type": "dynamic_action",
+          "duration": "1:35 - 2:10",
+          "description": "String attacks and Zoro's counter-attack",
+          "camera_movement": "rapid_cuts_action_sequence",
+          "focus": "combat_choreography"
+        },
+        {
+          "shot_id": "nami_captured",
+          "type": "dramatic_close",
+          "duration": "2:10 - 2:20",
+          "description": "Strings wrapping around Nami's wrist",
+          "camera_movement": "quick_zoom_to_strings",
+          "focus": "first_capture"
+        },
+        {
+          "shot_id": "luffy_determination",
+          "type": "heroic_medium",
+          "duration": "2:20 - 2:30",
+          "description": "Luffy's serious expression as friend is threatened",
+          "camera_movement": "steady_dramatic_push",
+          "focus": "resolve_building"
+        },
+        {
+          "shot_id": "psychological_strings",
+          "type": "surreal_montage",
+          "duration": "2:30 - 2:45",
+          "description": "Flashback sequences of Luffy's failures",
+          "camera_movement": "fragmented_quick_cuts",
+          "focus": "internal_struggle"
+        },
+        {
+          "shot_id": "final_defiance",
+          "type": "epic_wide_to_close",
+          "duration": "2:45 - 2:58",
+          "description": "Luffy's declaration and Haki awakening",
+          "camera_movement": "dramatic_zoom_in_to_eyes",
+          "focus": "willpower_triumph"
+        },
+        {
+          "shot_id": "cliffhanger",
+          "type": "screen_crack_effect",
+          "duration": "2:58 - 3:00",
+          "description": "Screen cracks like glass, fade to black",
+          "camera_movement": "static_with_effect",
+          "focus": "to_be_continued"
+        }
+      ],
+      "lighting": {
+        "initial": "eerie_fog_diffused",
+        "middle": "ominous_island_atmosphere", 
+        "climax": "dramatic_haki_glow",
+        "final": "fade_to_black"
+      },
+      "special_effects": [
+        "string_physics_simulation",
+        "fog_particle_system",
+        "haki_energy_effects",
+        "flashback_overlay_blend",
+        "screen_crack_shader",
+        "puppeteer_mask_glow"
+      ]
+    }
+  },
+  "camera_techniques": {
+    "establishing_shots": "Use wide angles to show scale and environment",
+    "character_focus": "Medium close-ups for dialogue, extreme close-ups for emotions",
+    "action_sequences": "Dynamic camera movement with quick cuts",
+    "supernatural_elements": "Surreal angles and movements for string magic",
+    "climax_moments": "Dramatic zoom-ins and static shots for impact"
+  },
+  "visual_style": {
+    "color_palette": {
+      "scene_1": ["ocean_blue", "sunny_yellow", "ship_brown", "sail_white"],
+      "scene_2": ["silver_sand", "dead_tree_gray", "string_shimmer", "haki_red"]
+    },
+    "contrast": "High contrast for dramatic moments, soft for peaceful scenes",
+    "saturation": "Vibrant for One Piece aesthetic, desaturated for ominous moments"
+  }
+}
