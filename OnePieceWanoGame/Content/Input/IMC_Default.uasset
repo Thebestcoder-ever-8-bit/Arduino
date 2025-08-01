@@ -1,0 +1,14 @@
+# Input Mapping Context for One Piece Wano Game
+# This file represents the default input mapping context
+# In a real project, this would be created in the Unreal Editor as a .uasset file
+
+# Movement Controls:
+# - WASD: Move character
+# - Mouse: Look around
+# - Space: Jump
+# - Left Mouse: Basic Attack
+# - Right Mouse: Special Attack (Devil Fruit)
+# - Q: Activate Haki
+# - E: Interact
+# - Tab: Character Switch (if available)
+# - Esc: Pause Menu
