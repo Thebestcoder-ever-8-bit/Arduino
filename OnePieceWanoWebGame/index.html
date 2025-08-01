@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>One Piece: Wano Arc Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+        
+        <!-- Mobile UI Controls -->
+        <div id="mobileControls">
+            <div id="joystick" class="control-element">
+                <div id="joystickKnob"></div>
+            </div>
+            
+            <div id="actionButtons">
+                <button id="attackBtn" class="action-btn">⚔️</button>
+                <button id="specialBtn" class="action-btn special">🔥</button>
+                <button id="hakiBtn" class="action-btn haki">⚡</button>
+                <button id="jumpBtn" class="action-btn">🦘</button>
+            </div>
+        </div>
+        
+        <!-- Game UI -->
+        <div id="gameUI">
+            <div id="healthBar">
+                <div id="healthFill"></div>
+                <span id="healthText">1000/1000</span>
+            </div>
+            
+            <div id="characterInfo">
+                <span id="characterName">Monkey D. Luffy</span>
+                <span id="devilFruit">Gomu Gomu no Mi</span>
+            </div>
+            
+            <div id="storyInfo">
+                <span id="currentChapter">Chapter 1: Arrival at Wano</span>
+                <span id="missionText">Find allies in Wano Country</span>
+            </div>
+        </div>
+        
+        <!-- Character Selection Menu -->
+        <div id="characterMenu" class="menu hidden">
+            <h2>Select Character</h2>
+            <div id="characterGrid">
+                <div class="character-card unlocked" data-character="luffy">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiNGRkQ3MDAiLz4KPHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiNGRkQ3MDAiLz4KPHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4=" alt="Luffy">
+                    <h3>Monkey D. Luffy</h3>
+                    <p>Gomu Gomu no Mi</p>
+                </div>
+                <div class="character-card locked" data-character="zoro">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiMwMEZGMDAiLz4=" alt="Zoro">
+                    <h3>Roronoa Zoro</h3>
+                    <p>Three Sword Style</p>
+                </div>
+                <div class="character-card locked" data-character="sanji">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzAiIGZpbGw9IiNGRkE1MDAiLz4=" alt="Sanji">
+                    <h3>Vinsmoke Sanji</h3>
+                    <p>Black Leg Style</p>
+                </div>
+            </div>
+            <button id="startGameBtn" class="menu-btn">Start Adventure</button>
+        </div>
+        
+        <!-- Main Menu -->
+        <div id="mainMenu" class="menu">
+            <h1>🏴‍☠️ One Piece: Wano Arc 🏴‍☠️</h1>
+            <div class="menu-buttons">
+                <button id="playBtn" class="menu-btn primary">Play</button>
+                <button id="charactersBtn" class="menu-btn">Characters</button>
+                <button id="settingsBtn" class="menu-btn">Settings</button>
+                <button id="creditsBtn" class="menu-btn">Credits</button>
+            </div>
+        </div>
+        
+        <!-- Loading Screen -->
+        <div id="loadingScreen">
+            <div class="loading-content">
+                <h2>⚓ Loading Wano Country... ⚓</h2>
+                <div class="loading-bar">
+                    <div id="loadingProgress"></div>
+                </div>
+                <p id="loadingText">Preparing your adventure...</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Audio Elements -->
+    <audio id="bgMusic" loop>
+        <source src="audio/wano-theme.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="attackSound">
+        <source src="audio/attack.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="specialSound">
+        <source src="audio/special.mp3" type="audio/mpeg">
+    </audio>
+    
+    <script src="js/game.js"></script>
+    <script src="js/character.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/input.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
